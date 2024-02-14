@@ -81,6 +81,12 @@ body {
     font-weight: 700;
 }
 
+.social-media-list .social-media:hover {
+    background-color: var(--Green);
+    color: var(--Off-Black);
+    cursor: pointer;
+}
+
 @media (max-width: 400px) {
     .container {
         max-width: 90%;
