@@ -22,12 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/Screenshot%20from%202024-02-14%2017-27-29.png)
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [](https://github.com/edersonmarques/Social-links-profile)
+- Live Site URL: [](https://edersonmarques.github.io/Social-links-profile/)
 
 ## My process
 
