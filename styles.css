@@ -1,107 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 :root {
-    --Green: hsl(75, 94%, 57%);
-    --White: hsl(0, 0%, 100%);
-    --Grey: hsl(0, 0%, 20%);
-    --Dark-Grey: hsl(0, 0%, 12%);
-    --Off-Black: hsl(0, 0%, 8%);
+	--Green: hsl(75, 94%, 57%);
+	--White: hsl(0, 0%, 100%);
+	--Grey: hsl(0, 0%, 20%);
+	--Dark-Grey: hsl(0, 0%, 12%);
+	--Off-Black: hsl(0, 0%, 8%);
+	--Clicked-Green: hsl(75, 100%, 80%);
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
+	box-sizing: border-box;
+	margin: 0;
 }
 
 body {
-    width: 100vw;
-    min-height: 100vh;
-    background-color: var(--Off-Black);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    font-family: 'Inter';
+	width: 100vw;
+	min-height: 100vh;
+	background-color: var(--Off-Black);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	font-family: "Inter";
 }
 
 .container {
-    width: 380px;
-    height: 610px;
-    padding: 40px 38px;
-    background-color: var(--Dark-Grey);
-    border-radius: 10px;
-    text-align: center;
+	width: 380px;
+	height: 610px;
+	padding: 40px 38px;
+	background-color: var(--Dark-Grey);
+	border-radius: 10px;
+	text-align: center;
 }
 
 #jessica-photo {
-    border-radius: 100px;
-    width: 90px;
+	border-radius: 100px;
+	width: 90px;
 }
 
 #name {
-    font-size: 1.47rem;
-    color: var(--White);
-    font-weight: 700;
-    margin-top: 23px;
+	font-size: 1.47rem;
+	color: var(--White);
+	font-weight: 700;
+	margin-top: 23px;
 }
 
 #location {
-    font-size: 0.875rem;
-    color: var(--Green);
-    font-weight: 700;
-    margin-top: 10px;
+	font-size: 0.875rem;
+	color: var(--Green);
+	font-weight: 700;
+	margin-top: 10px;
 }
 
 #bio {
-    font-size: 0.875rem;
-    color: white;
-    font-weight: 400;
-    margin-top: 27px;
+	font-size: 0.875rem;
+	color: white;
+	font-weight: 400;
+	margin-top: 27px;
 }
 
 .social-media-list {
-    list-style: none;
-    padding: 0;
-    margin-top: 25px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-
+	list-style: none;
+	padding: 0;
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
 }
 
 .social-media-list .social-media {
-    background-color: var(--Grey);
-    height: 46px;
-    border-radius:10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--White);
-    font-size: 0.875rem;
-    font-weight: 700;
+	height: 46px;
+	border-radius: 10px;
 }
 
-.social-media-list .social-media:hover {
-    background-color: var(--Green);
-    color: var(--Off-Black);
-    cursor: pointer;
+.social-media-link {
+	background-color: var(--Grey);
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--White);
+	font-size: 0.875rem;
+	font-weight: 700;
+}
+
+.social-media-link:hover {
+	background-color: var(--Green);
+	color: var(--Off-Black);
+	cursor: pointer;
+}
+
+.social-media-link:active {
+	background-color: var(--Clicked-Green);
 }
 
 @media (max-width: 400px) {
-    .container {
-        max-width: 90%;
-    }
-
+	.container {
+		max-width: 90%;
+	}
 }
 
-@media (max-width: 300px)  {
-    .container {
-        height: fit-content;
-    }
+@media (max-width: 300px) {
+	.container {
+		height: fit-content;
+	}
 }
 
 @media (max-height: 650px) {
-    .container {
-        height: fit-content;
-    }
+	.container {
+		height: fit-content;
+	}
 }
