@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/edersonmarques/Social-links-profile)
-- Live Site URL: [](https://edersonmarques.github.io/Social-links-profile/)
+- Solution URL: [Github](https://github.com/edersonmarques/Social-links-profile)
+- Live Site URL: [Github Pages](https://edersonmarques.github.io/Social-links-profile/)
 
 ## My process
 
